@@ -19,7 +19,7 @@ header, nav, footer {
     background: #ebebeb;
     height: 80px;
     margin-bottom: 10px;
-    vertical-align: middle;
+    clear: both;
 }
 /* Section and Aside Boxes */
 #sectionLeft, #asideRight {
@@ -29,6 +29,12 @@ header, nav, footer {
     width: 475px;
     height: 400px;
     background: #ebebeb;
+}
+#sectionLeft {
+    float: left;
+}
+#asideRight {
+    float: right;
 }
 
 /* Article Inside Section Box */
