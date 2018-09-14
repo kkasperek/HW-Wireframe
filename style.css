@@ -9,25 +9,26 @@ Body {
     vertical-align: middle;
 }
 h1, p {
-    color: #777;
-    background: #ebebeb;
-    line-height: 4; 
+    font-size: 1em;
+    font-weight: normal;
+    color: #777; 
+    margin: 0;
 }
 
 /* Head, Nav, Foot Boxes */
 header, nav, footer {
     background: #ebebeb;
-    height: 80px;
     margin-bottom: 10px;
+    padding: 40px 0;
     clear: both;
 }
 /* Section and Aside Boxes */
 #sectionLeft, #asideRight {
     display: inline-grid;
     position: relative;
-    margin-bottom: 10px;
+    margin: 10px 0;
     width: 475px;
-    height: 400px;
+    height: 350px;
     background: #ebebeb;
 }
 #sectionLeft {
@@ -36,18 +37,28 @@ header, nav, footer {
 #asideRight {
     float: right;
 }
+.theMiddle h1 {
+    position: relative;
+    top: 30px;
+}
 
 /* Article Inside Section Box */
 article {
-    margin: 20px;
-    padding: 30px;
+    margin: 12px;
+    padding: 0 15px;
     color: #ebebeb;
-    background: #777;
+    background: #777777;
 }
 
-/* h1 and p boxes in article */
+/* boxes in article */
 .smallBox {
-    margin: 20px;
+    position: relative;
+    top: 20px;
+    height: 60px;
+    margin-bottom: 10px;
     background: #ebebeb;
     color: #777;
+}
+.smallBox h2, .smallBox p {
+    padding: 10px 0; 
 }
